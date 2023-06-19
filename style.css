@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+
+*,*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree';
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+   
+}
+
+header{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 375px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.638)), url(./asets/mobBGg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+
+
+.hImg {
+    margin-top: 123px;
+    margin-bottom: 64px;
+    
+    
+}
+
+header h1{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #4C545C;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-bottom: 16px;
+}
+
+header p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(158, 171, 178, 1);
+    margin-bottom: 48px;
+}
+
+.hButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.hBtn1{
+    width: 311px;
+    height: 56px;
+    border: none;
+    background-color: rgba(38, 187, 164, 1);
+    box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    border-radius: 28px;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.hBtn1:hover{
+    cursor: pointer;
+    background-color:rgb(83, 221, 201) ;
+    transition: 1s;
+}
+
+.hBtn2{
+    width: 311px;
+    height: 56px;
+    border: none;
+    background-color:rgba(97, 116, 255, 1);
+    box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    border-radius: 28px;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 160px;
+}
+
+
+.hBtn2:hover{
+    cursor: pointer;
+    background-color:rgb(153, 164, 236);
+    transition: 1s;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    margin-bottom:186px;
+
+}
+.mainisResp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.keeptrack{
+    display: flex;
+    flex-direction: column;
+    gap:16px ;
+    margin-bottom: 65px;
+}
+
+.keeptrack h5{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    color: rgba(76, 84, 92, 1);
+    text-align: center;
+}
+.keeptrack h6{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(158, 171, 178, 1);
+    text-align: center;
+}
+.mobkompistvis{
+    margin-bottom: 56px;
+}
+
+.maintext1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    
+}
+.maintext1 h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color:rgba(76, 84, 92, 1) ;
+    text-align: center;
+}
+
+.maintext1 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:rgba(158, 171, 178, 1);
+    text-align: center;
+    letter-spacing: 0.12px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    gap: 20px;
+}
+.secText{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    gap:16px ;
+}
+
+.secText h2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    color: rgba(76, 84, 92, 1);
+    text-align: center;
+
+}
+.secText p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:rgba(158, 171, 178, 1) ;
+    text-align: center;
+
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-bottom: 130px;
+}
+.sec2text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.sec2text h2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    color:rgba(76, 84, 92, 1) ;
+    text-align: center;
+}
+.sec2text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:rgba(158, 171, 178, 1);
+    text-align: center;
+    letter-spacing: 0.12px;
+
+}
+
+.section2boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+}
+
+.sec2box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.sec2box h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color:rgba(76, 84, 92, 1) ;
+    text-align: center;
+}
+
+.sec2box p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:rgba(158, 171, 178, 1) ;
+    text-align: center;
+}
+
+.justimg{
+    margin-bottom:170px ;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+
+}
+
+.sec3text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.sec3text h1{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    color: rgba(76, 84, 92, 1);
+    text-align: center;
+    letter-spacing: -0.456522px;
+}
+
+.sec3text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(158, 171, 178, 1);
+    text-align: center;
+    letter-spacing: -0.12px;
+}
+
+.sec3Buttons{display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+   
+    background-color: #edf3f6;
+    
+}
+.footerlogo{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer1 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(76, 84, 92, 1);
+    letter-spacing: 0.135px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer1 p:hover  {
+    cursor: pointer;
+    color: rgba(38, 187, 164, 1);
+  
+
+}
+
+.footersoc{
+    display: flex;
+    gap:40px ;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.hover:hover path {
+    fill: rgba(38, 187, 164, 1);
+    cursor: pointer;
+}
+
+.deskmainkomp{
+    display: none;
+}
+
+
+.justimgdeskk{
+    display: none;
+}
+.deskkopmwithtick{
+    display: none;
+}
+.mobancompfordesk{
+    display: none;
+}

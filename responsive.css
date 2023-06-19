@@ -1,0 +1,206 @@
+@media screen and (min-width: 1400px){
+    header{
+        width: 100%;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.638)), url(./asets/deskBGG.png);
+    }
+    header h1{
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 57px;
+        
+    }
+
+    header p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: 30%;
+        padding-right: 30%;
+       
+    }
+    .hButtons{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hBtn1{
+        width: 227px;
+        height: 56px;}
+
+    .hBtn2{
+         width: 227px;
+        height: 56px;}
+
+        main{width: 100%;
+            display: flex;
+            
+        }
+        .keeptrack{
+            padding-left: 28%;
+            padding-right: 28%;
+            gap: 16px;
+            margin-bottom: 65px;
+            align-self: flex-start;
+        }
+
+        .keeptrack h5{
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 45px;
+       
+        }
+        .keeptrack h6{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            
+        }
+        .mainisResp{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: center;
+            justify-content: flex-start;
+            gap: 50px;
+            margin-top: 250px;
+        }
+        .mobkompistvis{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+         .maintext{
+           
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-items: center;
+            padding-bottom: 20%;
+            margin-left: 50%;
+          
+            gap: 50px;
+        }
+
+        .maintext1{
+            gap:30px;
+            align-items: flex-start;
+            padding: 0;
+        }
+
+        .maintext1 h2{
+            padding: 0;
+            text-align: start;
+        }
+        
+        .maintext1 p{
+           
+            text-align: start;
+            padding: 0;
+            
+        }
+        
+       
+        .deskkopmwithtick{
+            
+            display: block; 
+            align-items: center;
+            position: absolute;
+            left: 0;
+                
+  }
+
+
+        .justimgdeskk{
+         
+            display: block;
+           
+        }
+
+        .section{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        .secText{
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+           padding: 0;
+            gap:16px ;
+        }
+        .mobancompfordesk{
+            display: block;
+        }
+
+        .section2{
+            display: flex;
+            
+            align-items: center;
+            width: 100%;
+          padding: 0;
+            margin-bottom: 130px;
+        }
+        .sec2text{
+            gap:20px
+        }
+        .section2boxes{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 56px;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        .section3{
+            display: flex;
+           gap: 60px;
+            align-items: center;
+            width: 100%;
+        
+        }
+        .sec3text{
+            gap: 30px;
+        }
+
+        .sec3Buttons{
+            display: flex;
+            flex-direction: row;
+        }
+
+        footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items:center;
+            width: 100%;
+           /* align-content:space-between; */
+            background-color: #edf3f6;
+            padding-left: 130px;
+            padding-right: 130px;
+            
+        }
+        .footerlogo{
+            margin: 0;
+        }
+        .top{
+            align-self:baseline;
+            padding-top: 20px;
+        }
+        .footersoc{
+            padding-top: 10px;
+        }
+        .justimgmob{
+            display: none;
+        }
+        .mobkompwithtick{
+            display: none;
+        }
+        .mobandkompformob {
+            display: none;
+        }
+        
+   
+}
